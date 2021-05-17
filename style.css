@@ -1,0 +1,308 @@
+*{
+	margin:0;
+	padding:0;
+    box-sizing:border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Georgia';
+    line-height: normal;
+}
+/*header*/
+.inner_wrapper{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*menu*/
+.menu{
+    display: inline-block;
+    width: 650px;
+    float: right;  
+    margin-top: 50px;
+}
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px;
+}
+.menu a:hover{
+    background-color: #76c38f;
+    border-radius: 3px;
+    transition: all .3s;
+}
+/*end menu*/
+.clear{
+    clear: both;
+}
+
+
+.header{
+    background-image: url(./images/the-modernist_01.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header .company_name{
+    color: #ffffff; 
+    font-size: 28px;
+    width: 300px;
+    float: left;
+    padding-top: 47px;
+    text-decoration: none;
+}
+.header .company_name span{
+    color: #979797;
+    font-size: 11px;
+    display: block;
+}
+.header .circle{
+    border: 30px solid #6b6b6b;  
+    border-radius: 100%;
+    top: 80px; 
+    left: 600px;
+    position: absolute;
+    overflow: hidden;
+}
+.header .circle img{
+    display: block;
+
+}
+.header .title{
+     padding-top: 140px;
+     padding-left: 180px;
+     margin: 0 auto;
+     padding: 0;
+}
+
+.header_title_text_1{
+    font-size: 46px;
+    color: #ffffff;
+    margin-top: 145px;
+    margin-left: 50px;
+}
+.header_title_text_2{
+    font-size: 12px;
+    padding-top: 30px;
+    color: #ffffff;
+    margin-left: 50px;
+}
+/*end header*/
+
+/*block_info*/
+.block_info{
+    background: #86a18f;
+}
+.block_info .block{
+    width: 215px;
+    height: 340px;   
+    display: inline-block;
+    background-color: #ffffff;
+    margin:68px 20px 68px 0;
+    padding: 20px;
+    vertical-align: top;
+    text-decoration: none;
+}
+.block_info .block:last-child{
+    margin-right: 0;
+}
+.block_info .block .title{
+    font-size: 32px;
+    line-height: 1;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.block_info .block .text{
+    font-size: 15px;
+    text-align: center;
+    color: #979797;
+}
+.block_info .block:hover {
+    background: #76c38f;
+     transition: all .3s;
+}
+.block_info .block:hover .text{
+    color: #fff;
+}
+.block_info .block:hover .title{
+    color: #fff;
+}
+.block_info .block:hover .square{
+    background: #fff;
+}
+.block_info .block .square{
+    width: 122px;
+    height: 122px;
+    background-color: #333333;
+    padding: 54px;
+    margin: 0 auto;
+}
+/*end block_info*/
+
+/*block_latest_work*/
+.block_latest_work{
+    width: 100%;
+    height: 520px;
+    background-color: #86a18f;
+    
+}
+.block_latest_work .block{
+    display: inline-block;
+    width: 299px;
+    height:200px;
+    margin-right: 15px;
+    margin-top: 30px;
+    border: 5px solid white;
+    position: relative;
+    text-decoration: none;
+    
+}
+.block_latest_work .block:hover .text{
+   opacity:0;
+}
+.block_latest_work .block:last-child{
+    margin-right: 0;
+}
+.block_latest_work .block .text{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    transition: all .3s;
+}
+/*end block_latest_work*/
+
+/*footer*/
+.footer{
+    width: 100%;
+    background-color: #303030;
+    margin: 0 auto;
+    padding-top: 35px;  
+    color: #979797;
+}
+.footer .block{
+    width: 220px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.footer .block:last-child{
+    margin-right: 0;
+}
+.footer .block .title{
+    font-family: georgia;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.footer .block .read_more{
+    color: #76c38f;
+    margin-top: 20px;
+}
+.footer .block .read_more a{
+    color:#76c38f;
+    text-decoration: none; 
+}
+.footer .block .read_more a:hover{
+    opacity: 0.5;
+}
+.footer .block .post{
+    color: #76c38f;
+    font-size: 15px;
+     margin: 15px 0px;
+}
+.footer .block ul{
+    list-style: none;
+    color: #76c38f;
+    font-size: 15px;
+}
+.footer .block li{
+    padding: 0px 0px 10px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 15px;
+}
+.footer .block li a{
+    color:#76c38f;
+    text-decoration: none;
+}
+.footer .block li a:hover{
+    opacity: 0.5;
+}
+.footer .block .admin{
+    font-size: 11px;
+    color: #76c38e;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.footer .block .domainname{
+    font-size: 11px;
+    color: #666666;
+    display: inline-block;
+}
+.footer .block .date{
+    color: #979797;
+    font-size: 11px;
+    margin: 15px 0;
+}
+.footer p{
+    color: #979797;
+    font-size: 15px;
+    line-height:1.3;
+}
+.footer .block .namehere{
+    color: #76c38e;
+}
+
+
+
+input[type=text], input[type=tel]{
+    width: 255px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #222222;
+    border: #222222;
+    color: #989898;
+    font-family: Georgia;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 255px;
+    border-radius: 10px;
+    background-color: #222222;
+    border: #222222;
+    color: #989898;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    font-family: Georgia;
+}
+
+input[type=submit]{
+    background-color: #76c38f;
+    color: #303030;
+    width: 75px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    font-family: Georgia;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    opacity: 0.5;
+}
+/*end footer*/
